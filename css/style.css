@@ -4,7 +4,7 @@
    ========================================================================== */
 
 :root {
-  --black: #0a0908;
+  --black: #0a1130;
   --charcoal: #1c1a17;
   --charcoal-2: #262320;
   --gold: #c9a24a;
@@ -140,14 +140,14 @@ a { color: var(--gold); text-decoration: none; }
   position: fixed;
   top: 0; left: 0; right: 0;
   z-index: 500;
-  background: rgba(10, 9, 8, 0.55);
+  background: rgba(10, 17, 48, 0.55);
   backdrop-filter: blur(10px);
   border-bottom: 1px solid transparent;
   transition: background 0.3s ease, border-color 0.3s ease, padding 0.3s ease;
   padding: 14px 0;
 }
 .site-header.scrolled {
-  background: rgba(10, 9, 8, 0.92);
+  background: rgba(10, 17, 48, 0.92);
   border-color: var(--line);
   padding: 8px 0;
 }
@@ -266,7 +266,7 @@ a { color: var(--gold); text-decoration: none; }
   min-height: 100vh;
   display: flex;
   align-items: center;
-  background: radial-gradient(circle at 78% 30%, #201a10 0%, var(--black) 55%);
+  background: radial-gradient(circle at 78% 30%, #17204a 0%, var(--black) 55%);
   overflow: hidden;
   padding-top: 110px;
 }
@@ -468,7 +468,7 @@ a { color: var(--gold); text-decoration: none; }
 .banner::before {
   content: "";
   position: absolute; inset: 0;
-  background: linear-gradient(100deg, rgba(10,9,8,0.94) 20%, rgba(10,9,8,0.55) 60%, rgba(10,9,8,0.85));
+  background: linear-gradient(100deg, rgba(10,17,48,0.94) 20%, rgba(10,17,48,0.55) 60%, rgba(10,17,48,0.85));
 }
 .banner-inner {
   position: relative;
@@ -586,7 +586,7 @@ a { color: var(--gold); text-decoration: none; }
   position: absolute;
   left: 0; right: 0; bottom: 0;
   padding: 16px 18px;
-  background: linear-gradient(to top, rgba(10,9,8,0.92), transparent);
+  background: linear-gradient(to top, rgba(10,17,48,0.92), transparent);
   font-family: var(--serif);
   font-size: 0.95rem;
   color: var(--off-white);
@@ -597,7 +597,7 @@ a { color: var(--gold); text-decoration: none; }
   top: 12px; right: 12px;
   width: 34px; height: 34px;
   border-radius: 50%;
-  background: rgba(10,9,8,0.6);
+  background: rgba(10,17,48,0.6);
   border: 1px solid var(--line);
   color: var(--gold);
   display: flex;
