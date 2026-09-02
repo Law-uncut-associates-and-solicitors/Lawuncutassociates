@@ -177,12 +177,14 @@ a { color: var(--gold); text-decoration: none; }
 .brand-text strong {
   font-family: var(--serif);
   font-size: 1.05rem;
+  font-weight: 800;
   letter-spacing: 0.5px;
   color: var(--off-white);
   white-space: nowrap;
 }
 .brand-text span {
   font-size: 0.62rem;
+  font-weight: 600;
   letter-spacing: 2px;
   color: var(--gold);
   text-transform: uppercase;
