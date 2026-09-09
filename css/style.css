@@ -548,7 +548,52 @@ a { color: var(--gold); text-decoration: none; }
 .team-card .icon-ring svg { width: 30px; height: 30px; }
 .team-card h3 { font-size: 1.05rem; margin-bottom: 10px; }
 .team-card p { font-size: 0.9rem; }
-
+/* ---------------- Principal partner spotlight ---------------- */
+.spotlight {
+  display: flex;
+    flex-direction: column;
+      align-items: center;
+        text-align: center;
+        }
+        .spotlight-frame {
+          position: relative;
+            border: 1px solid var(--line);
+              padding: 16px;
+                border-radius: 4px;
+                  background: var(--charcoal-2);
+                    max-width: 380px;
+                      width: 100%;
+                      }
+                      .spotlight-frame::before {
+                        content: "";
+                          position: absolute;
+                            inset: 6px;
+                              border: 1px solid var(--gold-dim);
+                                border-radius: 2px;
+                                  pointer-events: none;
+                                    opacity: 0.5;
+                                    }
+                                    .spotlight-frame img {
+                                      width: 100%;
+                                        display: block;
+                                          border-radius: 2px;
+                                            filter: saturate(0.94) contrast(1.03);
+                                            }
+                                            .spotlight-label {
+                                              margin: 30px 0 6px;
+                                                font-size: 0.78rem;
+                                                  letter-spacing: 2.4px;
+                                                    text-transform: uppercase;
+                                                      color: var(--gold);
+                                                        font-weight: 500;
+                                                        }
+                                                        .spotlight-name {
+                                                          font-family: var(--serif);
+                                                            font-size: clamp(1.3rem, 2.4vw, 1.7rem);
+                                                              font-weight: 700;
+                                                                color: var(--off-white);
+                                                                  margin: 0;
+                                                                  }
 /* ---------------- Video showcase ---------------- */
 .video-grid {
   display: grid;
